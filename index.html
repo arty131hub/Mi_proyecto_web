@@ -12,6 +12,7 @@
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#proyecto">Proyecto</a></li>
+                <li><a href="#horario">Horario</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -25,9 +26,54 @@
             <h2>Sobre el proyecto</h2>
             <p>Un sitio web sencillo que iremos mejorando paso a paso.</p>
         </section>
+        <section id="horario">
+            <h2>Horario semanal</h2>
+            <table>
+                <caption>Plan de estudio</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Día</th>
+                        <th scope="col">Actividad</th>
+                        <th scope="col">Hora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Lunes</th>
+                        <td>HTML y estructura web</td>
+                        <td>16:00 - 17:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Miércoles</th>
+                        <td>Git y control de versiones</td>
+                        <td>16:00 - 17:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Viernes</th>
+                        <td>Repaso del proyecto</td>
+                        <td>16:00 - 17:00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
         <section id="contacto">
             <h2>Contacto</h2>
-            <p>El formulario de contacto se añadirá próximamente.</p>
+            <p>Formulario de ejemplo: no envía ni almacena datos.</p>
+            <form>
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+                <p>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </p>
+                <button type="button">Enviar</button>
+            </form>
         </section>
     </main>
 </body>

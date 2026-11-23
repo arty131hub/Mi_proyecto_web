@@ -22,6 +22,7 @@ git clone https://github.com/arty131hub/Mi_proyecto_web.git
 - `index.html`: contenido del sitio web.
 - `.gitignore`: excluye la carpeta `.vscode/`.
 - `README.md`: documentación del proyecto.
+- `entrega.pdf`: resumen de la entrega final.
 
 ## Mejoras implementadas
 
